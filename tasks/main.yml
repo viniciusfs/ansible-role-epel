@@ -1,10 +1,10 @@
 ---
-  name: Check if EPEL repository file exists
+- name: Check if EPEL repository file exists
   stat: >
     path={{ epel_repo_file }}
   register: epel_repo_file_results
 
-  name: Install EPEL repository
+- name: Install EPEL repository
   yum: >
     pkg={{ epel_repo_url }}
     state=installed
