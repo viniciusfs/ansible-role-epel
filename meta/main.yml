@@ -1,0 +1,20 @@
+dependencies: []
+
+galaxy_info:
+  author: viniciusfs
+  description: Enable EPEL repository for RedHat/CentOS
+  license: MIT
+
+  min_ansible_version: 1.2
+
+  platforms:
+    - name: EL
+      versions:
+      - 6
+      - 7
+
+  galaxy_tags:
+    - epel
+    - packaging
+    - repo
+    - repository
