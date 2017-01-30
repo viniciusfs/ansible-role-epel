@@ -1,4 +1,4 @@
-# EPEL
+# Ansible role: EPEL
 
 Enables EPEL repository on RedHat/CentOS systems.
 
