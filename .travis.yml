@@ -12,6 +12,7 @@ install:
 - pip install molecule docker-py
 
 script:
+- echo ${PWD}
 - molecule test --driver docker
 
 notifications:
