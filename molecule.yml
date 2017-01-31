@@ -4,8 +4,8 @@ docker:
     - name: node1
       ansible_groups:
         - servers
-      image: centos
-      image_version: systemd
+      image: centos/systemd
+      image_version: latest
       privileged: True
 
 vagrant:
