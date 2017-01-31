@@ -1,5 +1,8 @@
 # Ansible role: EPEL
 
+
+[![Build Status](https://travis-ci.org/viniciusfs/ansible-role-epel.svg?branch=master)](https://travis-ci.org/viniciusfs/ansible-role-epel)
+
 Enables EPEL repository on RedHat/CentOS systems.
 
 
